@@ -1,0 +1,197 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Background image */
+img {
+  display: block;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* For aligning the text on the background */
+p {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.wrap > div {
+  width: 110px;
+  position: relative;
+}
+
+/* Adjusting the top most text by using the flexbox */
+#mymain {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  text-align: center;
+  column-gap: 120px;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(164, 154, 153, 255);
+}
+
+#mymain div {
+  padding: 5px;
+  bottom: 650px;
+}
+
+/* For adjusting the middle of the text in the background */
+
+section > p {
+  color: rgba(250, 210, 179, 255);
+  text-align: center;
+  position: relative;
+  bottom: 855px;
+  right: 130px;
+  font-size: 10px;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 6px;
+}
+
+.movie {
+  position: relative;
+  top: 222px;
+}
+/* this CSS is use for the middle of the poster text */
+/* Starts */
+#nolon {
+  color: rgba(250, 210, 179, 255);
+  text-align: center;
+  position: relative;
+  bottom: 900px;
+  left: 80px;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 6px;
+}
+
+#movie {
+  color: rgba(250, 210, 179, 255);
+  text-align: center;
+  position: relative;
+  bottom: 950px;
+  font-size: 60px;
+  left: 20px;
+  letter-spacing: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(240, 99, 49, 255);
+}
+
+#date {
+  text-align: center;
+  position: relative;
+  bottom: 1075px;
+  font-size: 27px;
+  left: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#month {
+  text-align: center;
+  position: relative;
+  bottom: 1015px;
+  font-size: 27px;
+  right: 280px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#year {
+  text-align: center;
+  position: relative;
+  bottom: 1135px;
+  font-size: 27px;
+  left: 310px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#text {
+  text-align: center;
+  position: relative;
+  bottom: 1160px;
+  font-size: 15px;
+  left: 15px;
+  letter-spacing: 9px;
+  font-family: "Montserrat", sans-serif;
+}
+/* Ends */
+
+/* This is used for the bottom part of the text in the poster */
+/* Starts */
+#shot {
+  position: relative;
+  bottom: 600px;
+  letter-spacing: 4px;
+  right: 114px;
+  font-size: revert;
+}
+
+h3 {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  bottom: 655px;
+  left: 709px;
+  font-size: 26px;
+  color: rgba(250, 210, 179, 255);
+}
+
+#film {
+  position: relative;
+  bottom: 707px;
+  left: 119px;
+  font-size: revert;
+}
+
+#screen {
+  position: relative;
+  bottom: 717px;
+  letter-spacing: 3px;
+  left: 16px;
+  font-size: 11px;
+}
+
+/* Ends */
+
+/* This CSS is use for the adjusting the image on both left and right side at the bottom */
+/* Starts */
+.syncopy {
+  width: 5%;
+  height: 10%;
+  position: relative;
+  bottom: 762px;
+  left: 249px;
+}
+
+.universal {
+  width: 5%;
+  height: 10%;
+  position: relative;
+  bottom: 850px;
+  left: 1282px;
+}
+/* Ends */
+
+footer {
+  position: relative;
+  bottom: 756px;
+  text-align: center;
+}
